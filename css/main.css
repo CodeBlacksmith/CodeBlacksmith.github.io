@@ -134,6 +134,7 @@ input.txt-text {
 
 .state-date {
   max-width: 100%;
+  width: 7rem;
   padding: 0;
   margin: 0;
   font-size: 100%;
