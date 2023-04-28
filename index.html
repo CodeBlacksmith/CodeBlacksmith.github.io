@@ -11,7 +11,7 @@
  </head>
 <body>
 
-  <div id="container"> <!--Define container-->
+  <main id="container"> <!--Define container-->
     <form id="formageApp"> <!--Structure the form in two part-->
       <div class="input-date"> <!--first part input dates-->
         <div class="form-date">
@@ -29,20 +29,16 @@
             <input type="text" class="txt-text" id="txt-year" name="year" placeholder="YYYY"></input>
             <span class="error" id="error-year"></span>
         </div>
-        <button type="submit" class="btn-circle" id="btn-enviar"><span></span></button>
+        <button type="submit" aria-label="calculate" class="btn-circle" id="btn-enviar"><span></span></button>
       </div>
       <div class="output-date"> <!--Second part output date-->
         <div class="forms form-years">
           <p class="state-date" id="state-years">--</p>
           <h2 class="txt-state">years</h2>
-          
-          
         </div>
         <div class="forms form-month">
           <p class="state-date" id="state-month">--</p> 
           <h2 class="txt-state">months</h2>
-          
-          
         </div>
         <div class="forms form-day">
           <p class="state-date" id="state-day">--</p>
@@ -53,11 +49,11 @@
       
     </form>
    
-  </div>
-  <div class="attribution">
+  </main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ariel Bodan</a>.
-  </div>
+  </footer>
   <script src="/script.js"></script>
 </body>
 </html>
