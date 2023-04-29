@@ -14,7 +14,7 @@
     }
     .txt-state{
         max-width: 100%;
-        font-size: clamp(4rem, 2vw, 2rem);;
+        font-size: clamp(1.5rem, 15vw, 4rem);
     }
 }
 
@@ -61,7 +61,7 @@
     .txt-state{
         max-width: 100%;
         width: 80%;
-        font-size: 16vw;
+        font-size: clamp(1.5rem, 12vw, 3rem);
     }
 
     .state-date{
