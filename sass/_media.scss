@@ -1,0 +1,72 @@
+@media only screen  and (max-width: 480px){
+   .btn-circle{
+        width: 3.5rem;
+        height: 3.5rem;
+        bottom: -1.8rem;
+    }  
+    .error{
+        bottom: -8px;
+        letter-spacing: 0;
+    }  
+    .state-date{
+        font-size: clamp(3.5rem, 2vw, 4rem);
+       
+    }
+    .txt-state{
+        max-width: 100%;
+        font-size: clamp(4rem, 2vw, 2rem);;
+    }
+}
+
+@media only screen  and (max-width: 375px){
+   
+    #titleApp{
+    font-size: 80%;
+   }
+  .input-date{
+    justify-content: space-evenly;
+  }
+  
+    .form-date{
+        margin: 0;
+        padding: 0;
+        row-gap: 5px;
+       
+
+    input.txt-text{
+        width: 60%;
+        height: 2rem;
+        font-size: 1rem;
+    }
+}
+
+.error{
+    bottom: -10px;
+    letter-spacing: 0;
+}
+
+    .btn-circle{
+        width: 3rem;
+        height: 3rem;
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%, 50%);
+
+    }
+    .form1{
+        padding: 0;
+       
+    }
+
+    .txt-state{
+        max-width: 100%;
+        width: 80%;
+        font-size: 16vw;
+    }
+
+    .state-date{
+        font-size: 3.5rem;
+       
+    }
+    
+}
